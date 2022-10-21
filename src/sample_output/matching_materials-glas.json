@@ -1,0 +1,2067 @@
+[
+    {
+        "created": "2021-05-21T10:13:31.2940957+00:00",
+        "modified": "2021-05-21T10:25:39.2310867+00:00",
+        "user": {
+            "name": "Huijsmans, Thijs",
+            "email": "thuijsmans@heijmans.nl",
+            "organizationName": "Heijmans",
+            "isPremium": false,
+            "tenantId": "64b9032e-3a44-4d13-9230-6f329bca0958",
+            "isAdmin": false,
+            "canChangeEmail": false
+        },
+        "type": "Aanbod",
+        "className": "aanbod",
+        "status": "Uitvoering",
+        "internalProject": true,
+        "public": true,
+        "contractor": "Heijmans",
+        "projectName": "Fluor Hoofddorp",
+        "projectNumber": "",
+        "location": null,
+        "userIsContact": true,
+        "contact": "Huijsmans, Thijs",
+        "email": "thuijsmans@heijmans.nl",
+        "periodOf": "2021-01-01T00:00:00Z",
+        "periodTo": "2021-07-01T00:00:00Z",
+        "periodTender": "1970-01-01T00:00:00.001Z",
+        "proofAvailable": false,
+        "comments": "",
+        "geolocation": {
+            "latitude": 52.28832914870583,
+            "longitude": 4.704884290695191
+        },
+        "address": {
+            "city": "Hoofddorp",
+            "street": "Taurusavenue",
+            "houseNumber": "155",
+            "state": "Noord-Holland",
+            "zipcode": "2132LS",
+            "country": "Nederland",
+            "displayName": "Fluor B.V., 155, Taurusavenue, Hoofddorp, Haarlemmermeer, Noord-Holland, Nederland, 2132LS"
+        },
+        "sendEmail": false,
+        "attachments": null,
+        "expired": true,
+        "termsAndConditionsAccepted": true,
+        "productClassification": {
+            "id": "40afda4c-445d-4c51-918e-c2e9b3e19a71",
+            "code": "22",
+            "title": "Binnenwanden"
+        },
+        "subType": {
+            "id": "af1a18d9-709d-46a2-96bb-07b9e111a6d2",
+            "code": "22.14",
+            "title": "Niet Constructief, Systeemwanden; Verplaatsbaar"
+        },
+        "materials": [
+            {
+                "id": "fcef02d6-b3a5-4c34-ae93-017b59d8e09d",
+                "title": "Glas"
+            },
+            {
+                "id": "98b6445e-d575-432b-8e0a-03b8d7967e3e",
+                "title": "Metaal"
+            }
+        ],
+        "connection": {
+            "id": "ea630703-9e06-41fc-ae9d-adb834315138",
+            "title": "Droge verbinding"
+        },
+        "length": 12,
+        "lengthUnit": "Millimeter",
+        "width": 2763,
+        "widthUnit": "Millimeter",
+        "height": 900,
+        "heightUnit": "Millimeter",
+        "area": null,
+        "areaUnit": null,
+        "weight": null,
+        "weightUnit": null,
+        "quantity": 0,
+        "accessibility": null,
+        "producer": {
+            "id": "9250c822-5001-452b-8aaf-18395391adb7",
+            "title": "Bekend"
+        },
+        "producerName": "Verwol",
+        "productName": "53 Dubbelglaswand met 12 flush deuren",
+        "productionYear": "2006",
+        "productCode": "",
+        "lcaScore": {
+            "id": "be031c19-89fc-4c5b-b252-05ab3215d71d",
+            "title": "Niet beschikbaar"
+        },
+        "certificates": [],
+        "warranties": [],
+        "photos": [
+            {
+                "id": "935d8ad3-fad3-40d1-a41f-46e3579cebbb",
+                "name": "ingenieuersbureau4.jpg",
+                "type": "image/jpeg",
+                "content": null
+            },
+            {
+                "id": "099c8057-c16e-4a05-a60d-9c9a03b323f6",
+                "name": "20210420_130228.jpg",
+                "type": "image/jpeg",
+                "content": null
+            },
+            {
+                "id": "445fc3be-5d18-4c4b-b639-9bc2bfe57cf9",
+                "name": "20210420_130247.jpg",
+                "type": "image/jpeg",
+                "content": null
+            },
+            {
+                "id": "0c3c901f-d954-47fc-8af3-3a4ab85f19c9",
+                "name": "20210420_130253.jpg",
+                "type": "image/jpeg",
+                "content": null
+            },
+            {
+                "id": "dd9a90cb-3d8e-4b73-8114-2429bb7e5076",
+                "name": "20210420_130301.jpg",
+                "type": "image/jpeg",
+                "content": null
+            },
+            {
+                "id": "5c80dd22-268c-4f11-8bcf-8a45722c1540",
+                "name": "20210420_130305.jpg",
+                "type": "image/jpeg",
+                "content": null
+            },
+            {
+                "id": "b4ba563b-820a-42b3-891a-13e95e39e916",
+                "name": "20210420_130314.jpg",
+                "type": "image/jpeg",
+                "content": null
+            },
+            {
+                "id": "fb80099e-7f68-4695-96ea-5bee7948de97",
+                "name": "20210420_130318.jpg",
+                "type": "image/jpeg",
+                "content": null
+            },
+            {
+                "id": "7e7c3ca7-848a-4670-bd7d-a7bcd2db847c",
+                "name": "20210420_130322.jpg",
+                "type": "image/jpeg",
+                "content": null
+            },
+            {
+                "id": "d9ac446d-724b-44e6-838c-490cac400765",
+                "name": "20210420_130337.jpg",
+                "type": "image/jpeg",
+                "content": null
+            }
+        ],
+        "condition": {
+            "id": "7a41418f-dc97-401b-9196-2cdcf5292b41",
+            "title": "Goede conditie (beginnende verwering of slijtage)"
+        },
+        "currentLocationBuilding": "Opgeslagen binnen het gebouw",
+        "disassembled": "Ja",
+        "transportProvider": "Nee",
+        "id": "88538d84-0bf5-4e9e-9a8e-ff5489f93110",
+        "partitionKey": "offer",
+        "documentType": "buildingmaterialrequest",
+        "deleted": false
+    },
+    {
+        "created": "2021-05-21T10:31:47.5676135+00:00",
+        "modified": "2021-05-21T14:18:25.7903012+00:00",
+        "user": {
+            "name": "Huijsmans, Thijs",
+            "email": "thuijsmans@heijmans.nl",
+            "organizationName": "Heijmans",
+            "isPremium": false,
+            "tenantId": "64b9032e-3a44-4d13-9230-6f329bca0958",
+            "isAdmin": false,
+            "canChangeEmail": false
+        },
+        "type": "Aanbod",
+        "className": "aanbod",
+        "status": "Productieproces",
+        "internalProject": true,
+        "public": true,
+        "contractor": "Heijmans",
+        "projectName": "",
+        "projectNumber": "",
+        "location": null,
+        "userIsContact": true,
+        "contact": "Huijsmans, Thijs",
+        "email": "thuijsmans@heijmans.nl",
+        "periodOf": "1970-01-01T00:00:00.001Z",
+        "periodTo": "2029-12-31T23:00:00Z",
+        "periodTender": "1970-01-01T00:00:00.001Z",
+        "proofAvailable": false,
+        "comments": "",
+        "geolocation": {
+            "latitude": 52.288322586002984,
+            "longitude": 4.704884290695191
+        },
+        "address": {
+            "city": "Hoofddorp",
+            "street": "Taurusavenue",
+            "houseNumber": "155",
+            "state": "Noord-Holland",
+            "zipcode": "2132LS",
+            "country": "Nederland",
+            "displayName": "Fluor B.V., 155, Taurusavenue, Hoofddorp, Haarlemmermeer, Noord-Holland, Nederland, 2132LS"
+        },
+        "sendEmail": false,
+        "attachments": null,
+        "expired": true,
+        "termsAndConditionsAccepted": true,
+        "productClassification": {
+            "id": "40afda4c-445d-4c51-918e-c2e9b3e19a71",
+            "code": "22",
+            "title": "Binnenwanden"
+        },
+        "subType": {
+            "id": "af1a18d9-709d-46a2-96bb-07b9e111a6d2",
+            "code": "22.14",
+            "title": "Niet Constructief, Systeemwanden; Verplaatsbaar"
+        },
+        "materials": [
+            {
+                "id": "fcef02d6-b3a5-4c34-ae93-017b59d8e09d",
+                "title": "Glas"
+            },
+            {
+                "id": "98b6445e-d575-432b-8e0a-03b8d7967e3e",
+                "title": "Metaal"
+            }
+        ],
+        "connection": {
+            "id": "ea630703-9e06-41fc-ae9d-adb834315138",
+            "title": "Droge verbinding"
+        },
+        "length": 12,
+        "lengthUnit": "Millimeter",
+        "width": 2763,
+        "widthUnit": "Millimeter",
+        "height": 900,
+        "heightUnit": "Millimeter",
+        "area": null,
+        "areaUnit": null,
+        "weight": null,
+        "weightUnit": null,
+        "quantity": 0,
+        "accessibility": null,
+        "producer": {
+            "id": "9250c822-5001-452b-8aaf-18395391adb7",
+            "title": "Bekend"
+        },
+        "producerName": "Verwol",
+        "productName": "53 binnenwanden dubbelglas met 12 flushdeuren",
+        "productionYear": "2014",
+        "productCode": "",
+        "lcaScore": {
+            "id": "be031c19-89fc-4c5b-b252-05ab3215d71d",
+            "title": "Niet beschikbaar"
+        },
+        "certificates": [],
+        "warranties": [],
+        "photos": [
+            {
+                "id": "63d2f50c-7115-45c0-8e3f-5e7ff69c25a7",
+                "name": "ingenieuersbureau4.jpg",
+                "type": "image/jpeg",
+                "content": null
+            },
+            {
+                "id": "ef9de0cd-26d8-4bee-a129-148737f7ea8f",
+                "name": "20210420_130228.jpg",
+                "type": "image/jpeg",
+                "content": null
+            },
+            {
+                "id": "15cc5e5f-f143-4afc-aa81-45fea7757e8a",
+                "name": "20210420_130247.jpg",
+                "type": "image/jpeg",
+                "content": null
+            },
+            {
+                "id": "f529ba51-8607-4f3b-b48e-05674b2aebca",
+                "name": "20210420_130253.jpg",
+                "type": "image/jpeg",
+                "content": null
+            },
+            {
+                "id": "456901c5-def0-47e0-8313-3959e631c22b",
+                "name": "20210420_130301.jpg",
+                "type": "image/jpeg",
+                "content": null
+            },
+            {
+                "id": "113d6087-3137-4109-b232-cf15e538fd94",
+                "name": "20210420_130305.jpg",
+                "type": "image/jpeg",
+                "content": null
+            },
+            {
+                "id": "526bc614-f98f-43b2-9c66-5dd8b0096519",
+                "name": "20210420_130314.jpg",
+                "type": "image/jpeg",
+                "content": null
+            },
+            {
+                "id": "e94f4af4-5332-439d-b68c-3334cc7a611e",
+                "name": "20210420_130318.jpg",
+                "type": "image/jpeg",
+                "content": null
+            },
+            {
+                "id": "80de690f-15f1-4cc9-be9e-dc545941a6e4",
+                "name": "20210420_130322.jpg",
+                "type": "image/jpeg",
+                "content": null
+            },
+            {
+                "id": "2be042f2-78a6-4c58-a38d-cb6750ef5e76",
+                "name": "20210420_130337.jpg",
+                "type": "image/jpeg",
+                "content": null
+            }
+        ],
+        "condition": {
+            "id": "0628dd12-9823-4fc0-9d3d-24eced5f7050",
+            "title": "Redelijke conditie (opvallende verouderingsprocessen)"
+        },
+        "currentLocationBuilding": "Opgeslagen op het terrein (overdekt)",
+        "disassembled": "Ja",
+        "transportProvider": "Nee",
+        "id": "b3cf15cd-710d-4e4e-956c-b31d8f7b7269",
+        "partitionKey": "offer",
+        "documentType": "buildingmaterialrequest",
+        "deleted": false
+    },
+    {
+        "created": "2021-05-21T14:17:29.6130053+00:00",
+        "modified": "2021-05-25T19:17:05.8327706+00:00",
+        "user": {
+            "name": "Huijsmans, Thijs",
+            "email": "thuijsmans@heijmans.nl",
+            "organizationName": "Heijmans",
+            "isPremium": false,
+            "tenantId": "64b9032e-3a44-4d13-9230-6f329bca0958",
+            "isAdmin": false,
+            "canChangeEmail": false
+        },
+        "type": "Aanbod",
+        "className": "aanbod",
+        "status": "Productieproces",
+        "internalProject": true,
+        "public": true,
+        "contractor": "Heijmans",
+        "projectName": "",
+        "projectNumber": "",
+        "location": null,
+        "userIsContact": true,
+        "contact": "Huijsmans, Thijs",
+        "email": "thuijsmans@heijmans.nl",
+        "periodOf": "1970-01-01T00:00:00.001Z",
+        "periodTo": "2029-12-31T23:00:00Z",
+        "periodTender": "1970-01-01T00:00:00.001Z",
+        "proofAvailable": false,
+        "comments": "",
+        "geolocation": {
+            "latitude": 52.288322586002984,
+            "longitude": 4.704884290695191
+        },
+        "address": {
+            "city": "Hoofddorp",
+            "street": "Taurusavenue",
+            "houseNumber": "155",
+            "state": "Noord-Holland",
+            "zipcode": "2132LS",
+            "country": "Nederland",
+            "displayName": "Fluor B.V., 155, Taurusavenue, Hoofddorp, Haarlemmermeer, Noord-Holland, Nederland, 2132LS"
+        },
+        "sendEmail": false,
+        "attachments": null,
+        "expired": true,
+        "termsAndConditionsAccepted": true,
+        "productClassification": {
+            "id": "40afda4c-445d-4c51-918e-c2e9b3e19a71",
+            "code": "22",
+            "title": "Binnenwanden"
+        },
+        "subType": {
+            "id": "af1a18d9-709d-46a2-96bb-07b9e111a6d2",
+            "code": "22.14",
+            "title": "Niet Constructief, Systeemwanden; Verplaatsbaar"
+        },
+        "materials": [
+            {
+                "id": "fcef02d6-b3a5-4c34-ae93-017b59d8e09d",
+                "title": "Glas"
+            },
+            {
+                "id": "98b6445e-d575-432b-8e0a-03b8d7967e3e",
+                "title": "Metaal"
+            }
+        ],
+        "connection": {
+            "id": "ea630703-9e06-41fc-ae9d-adb834315138",
+            "title": "Droge verbinding"
+        },
+        "length": 12,
+        "lengthUnit": "Millimeter",
+        "width": 2763,
+        "widthUnit": "Millimeter",
+        "height": 896,
+        "heightUnit": "Millimeter",
+        "area": null,
+        "areaUnit": null,
+        "weight": null,
+        "weightUnit": null,
+        "quantity": 0,
+        "accessibility": null,
+        "producer": {
+            "id": "9250c822-5001-452b-8aaf-18395391adb7",
+            "title": "Bekend"
+        },
+        "producerName": "Verwol",
+        "productName": "53 binnenwanden dubbelglas met 12 flushdeuren",
+        "productionYear": "2014",
+        "productCode": "",
+        "lcaScore": {
+            "id": "be031c19-89fc-4c5b-b252-05ab3215d71d",
+            "title": "Niet beschikbaar"
+        },
+        "certificates": [],
+        "warranties": [],
+        "photos": [
+            {
+                "id": "6c98b2f9-fb24-44b7-8ef1-15b8f2d53be8",
+                "name": "ingenieuersbureau4.jpg",
+                "type": "image/jpeg",
+                "content": null
+            },
+            {
+                "id": "2c665973-3e0c-4c41-8fb7-f6741c1415f2",
+                "name": "20210420_130228.jpg",
+                "type": "image/jpeg",
+                "content": null
+            },
+            {
+                "id": "2ad3cc19-0c7b-49ce-a326-045b99892365",
+                "name": "20210420_130247.jpg",
+                "type": "image/jpeg",
+                "content": null
+            },
+            {
+                "id": "44e25cdd-fc04-47ac-a75b-9b86171d26f9",
+                "name": "20210420_130253.jpg",
+                "type": "image/jpeg",
+                "content": null
+            },
+            {
+                "id": "0bf9bacb-2e8c-4dbe-8f6a-9aafdc8e28d3",
+                "name": "20210420_130301.jpg",
+                "type": "image/jpeg",
+                "content": null
+            },
+            {
+                "id": "b4e58b7d-006d-43b6-b2b8-f48e324a2596",
+                "name": "20210420_130305.jpg",
+                "type": "image/jpeg",
+                "content": null
+            },
+            {
+                "id": "272e625d-af24-4718-a897-d373d8dc345c",
+                "name": "20210420_130314.jpg",
+                "type": "image/jpeg",
+                "content": null
+            },
+            {
+                "id": "18f64b81-5d17-417a-80b7-c53f8e02e814",
+                "name": "20210420_130318.jpg",
+                "type": "image/jpeg",
+                "content": null
+            },
+            {
+                "id": "99121076-dde2-4828-b139-a745d3a5252d",
+                "name": "20210420_130322.jpg",
+                "type": "image/jpeg",
+                "content": null
+            },
+            {
+                "id": "b21686e3-56f7-4024-b614-3b9baf82c399",
+                "name": "20210420_130337.jpg",
+                "type": "image/jpeg",
+                "content": null
+            }
+        ],
+        "condition": {
+            "id": "0628dd12-9823-4fc0-9d3d-24eced5f7050",
+            "title": "Redelijke conditie (opvallende verouderingsprocessen)"
+        },
+        "currentLocationBuilding": "Opgeslagen op het terrein (overdekt)",
+        "disassembled": "Ja",
+        "transportProvider": "Nee",
+        "id": "2e7bafb9-7fbd-46dc-87fa-8e408b21a08f",
+        "partitionKey": "offer",
+        "documentType": "buildingmaterialrequest",
+        "deleted": false
+    },
+    {
+        "created": "2021-05-25T19:13:43.3765933+00:00",
+        "modified": "2021-05-25T19:16:48.5718019+00:00",
+        "user": {
+            "name": "Huijsmans, Thijs",
+            "email": "thuijsmans@heijmans.nl",
+            "organizationName": "Heijmans",
+            "isPremium": false,
+            "tenantId": "64b9032e-3a44-4d13-9230-6f329bca0958",
+            "isAdmin": false,
+            "canChangeEmail": false
+        },
+        "type": "Aanbod",
+        "className": "aanbod",
+        "status": "Productieproces",
+        "internalProject": true,
+        "public": true,
+        "contractor": "Heijmans",
+        "projectName": "",
+        "projectNumber": "",
+        "location": null,
+        "userIsContact": true,
+        "contact": "Huijsmans, Thijs",
+        "email": "thuijsmans@heijmans.nl",
+        "periodOf": "1970-01-01T00:00:00.001Z",
+        "periodTo": "2029-12-31T23:00:00Z",
+        "periodTender": "1970-01-01T00:00:00.001Z",
+        "proofAvailable": false,
+        "comments": "",
+        "geolocation": {
+            "latitude": 52.28832914870583,
+            "longitude": 4.704884290695191
+        },
+        "address": {
+            "city": "Hoofddorp",
+            "street": "Taurusavenue",
+            "houseNumber": "155",
+            "state": "Noord-Holland",
+            "zipcode": "2132LS",
+            "country": "Nederland",
+            "displayName": "Fluor B.V., 155, Taurusavenue, Hoofddorp, Haarlemmermeer, Noord-Holland, Nederland, 2132LS"
+        },
+        "sendEmail": false,
+        "attachments": null,
+        "expired": true,
+        "termsAndConditionsAccepted": true,
+        "productClassification": {
+            "id": "40afda4c-445d-4c51-918e-c2e9b3e19a71",
+            "code": "22",
+            "title": "Binnenwanden"
+        },
+        "subType": {
+            "id": "af1a18d9-709d-46a2-96bb-07b9e111a6d2",
+            "code": "22.14",
+            "title": "Niet Constructief, Systeemwanden; Verplaatsbaar"
+        },
+        "materials": [
+            {
+                "id": "fcef02d6-b3a5-4c34-ae93-017b59d8e09d",
+                "title": "Glas"
+            },
+            {
+                "id": "98b6445e-d575-432b-8e0a-03b8d7967e3e",
+                "title": "Metaal"
+            }
+        ],
+        "connection": {
+            "id": "ea630703-9e06-41fc-ae9d-adb834315138",
+            "title": "Droge verbinding"
+        },
+        "length": 2763,
+        "lengthUnit": "Millimeter",
+        "width": 10,
+        "widthUnit": "Millimeter",
+        "height": 900,
+        "heightUnit": "Millimeter",
+        "area": null,
+        "areaUnit": null,
+        "weight": null,
+        "weightUnit": null,
+        "quantity": 0,
+        "accessibility": null,
+        "producer": {
+            "id": "9250c822-5001-452b-8aaf-18395391adb7",
+            "title": "Bekend"
+        },
+        "producerName": "Verwol",
+        "productName": "53 binnenwanden dubbelglas met 12 flushdeuren",
+        "productionYear": "2014",
+        "productCode": "",
+        "lcaScore": {
+            "id": "be031c19-89fc-4c5b-b252-05ab3215d71d",
+            "title": "Niet beschikbaar"
+        },
+        "certificates": [],
+        "warranties": [],
+        "photos": [
+            {
+                "id": "e5c683dc-765f-4385-8315-95646c6ef1d7",
+                "name": "ingenieuersbureau4.jpg",
+                "type": "image/jpeg",
+                "content": null
+            },
+            {
+                "id": "abb3a4b4-a04c-413a-9a70-9def72662c5b",
+                "name": "20210420_130228.jpg",
+                "type": "image/jpeg",
+                "content": null
+            },
+            {
+                "id": "ebb0d6ba-2fbb-48ea-a0b7-8b7d39f7dcff",
+                "name": "20210420_130247.jpg",
+                "type": "image/jpeg",
+                "content": null
+            },
+            {
+                "id": "a2c23d76-0295-41bd-8a00-91d3c707cd8f",
+                "name": "20210420_130253.jpg",
+                "type": "image/jpeg",
+                "content": null
+            },
+            {
+                "id": "6f04cc19-7e1a-4041-b76f-167d4e6f0d9c",
+                "name": "20210420_130301.jpg",
+                "type": "image/jpeg",
+                "content": null
+            },
+            {
+                "id": "59e3ee03-4e26-46df-b5f7-52132d3549f5",
+                "name": "20210420_130305.jpg",
+                "type": "image/jpeg",
+                "content": null
+            },
+            {
+                "id": "e7c10b88-4fe9-476d-8332-6a8de39be3eb",
+                "name": "20210420_130314.jpg",
+                "type": "image/jpeg",
+                "content": null
+            },
+            {
+                "id": "605a7861-9f16-471b-92f4-ade550af2df7",
+                "name": "20210420_130318.jpg",
+                "type": "image/jpeg",
+                "content": null
+            },
+            {
+                "id": "07fdfdc0-127e-48ab-b51b-504d62a66999",
+                "name": "20210420_130322.jpg",
+                "type": "image/jpeg",
+                "content": null
+            },
+            {
+                "id": "df23768d-295d-49ad-96b1-f2972c07bd91",
+                "name": "20210420_130337.jpg",
+                "type": "image/jpeg",
+                "content": null
+            }
+        ],
+        "condition": {
+            "id": "0628dd12-9823-4fc0-9d3d-24eced5f7050",
+            "title": "Redelijke conditie (opvallende verouderingsprocessen)"
+        },
+        "currentLocationBuilding": "Opgeslagen op het terrein (overdekt)",
+        "disassembled": "Ja",
+        "transportProvider": "Nee",
+        "id": "b886d2bd-a49b-493e-9ee4-3d05224372ca",
+        "partitionKey": "offer",
+        "documentType": "buildingmaterialrequest",
+        "deleted": false
+    },
+    {
+        "created": "2021-05-25T19:19:37.6541629+00:00",
+        "modified": "2021-05-25T19:19:37.6541634+00:00",
+        "user": {
+            "name": "Huijsmans, Thijs",
+            "email": "thuijsmans@heijmans.nl",
+            "organizationName": "Heijmans",
+            "isPremium": false,
+            "tenantId": "64b9032e-3a44-4d13-9230-6f329bca0958",
+            "isAdmin": false,
+            "canChangeEmail": false
+        },
+        "type": "Aanbod",
+        "className": "aanbod",
+        "status": "Productieproces",
+        "internalProject": true,
+        "public": true,
+        "contractor": "Heijmans",
+        "projectName": "",
+        "projectNumber": "",
+        "location": null,
+        "userIsContact": true,
+        "contact": "Huijsmans, Thijs",
+        "email": "thuijsmans@heijmans.nl",
+        "periodOf": "1970-01-01T00:00:00.001Z",
+        "periodTo": "2029-12-31T23:00:00Z",
+        "periodTender": "1970-01-01T00:00:00.001Z",
+        "proofAvailable": false,
+        "comments": "",
+        "geolocation": {
+            "latitude": 52.28832914870583,
+            "longitude": 4.704884290695191
+        },
+        "address": {
+            "city": "Hoofddorp",
+            "street": "Taurusavenue",
+            "houseNumber": "155",
+            "state": "Noord-Holland",
+            "zipcode": "2132LS",
+            "country": "Nederland",
+            "displayName": "Fluor B.V., 155, Taurusavenue, Hoofddorp, Haarlemmermeer, Noord-Holland, Nederland, 2132LS"
+        },
+        "sendEmail": false,
+        "attachments": null,
+        "expired": false,
+        "termsAndConditionsAccepted": true,
+        "productClassification": {
+            "id": "40afda4c-445d-4c51-918e-c2e9b3e19a71",
+            "code": "22",
+            "title": "Binnenwanden"
+        },
+        "subType": {
+            "id": "af1a18d9-709d-46a2-96bb-07b9e111a6d2",
+            "code": "22.14",
+            "title": "Niet Constructief, Systeemwanden; Verplaatsbaar"
+        },
+        "materials": [
+            {
+                "id": "fcef02d6-b3a5-4c34-ae93-017b59d8e09d",
+                "title": "Glas"
+            },
+            {
+                "id": "98b6445e-d575-432b-8e0a-03b8d7967e3e",
+                "title": "Metaal"
+            }
+        ],
+        "connection": {
+            "id": "ea630703-9e06-41fc-ae9d-adb834315138",
+            "title": "Droge verbinding"
+        },
+        "length": 2763,
+        "lengthUnit": "Millimeter",
+        "width": 12,
+        "widthUnit": "Millimeter",
+        "height": 900,
+        "heightUnit": "Millimeter",
+        "area": null,
+        "areaUnit": null,
+        "weight": null,
+        "weightUnit": null,
+        "quantity": 53,
+        "accessibility": null,
+        "producer": {
+            "id": "9250c822-5001-452b-8aaf-18395391adb7",
+            "title": "Bekend"
+        },
+        "producerName": "Verwol",
+        "productName": "53 binnenwanden dubbelglas met 12 flushdeuren",
+        "productionYear": "2014",
+        "productCode": "",
+        "lcaScore": {
+            "id": "be031c19-89fc-4c5b-b252-05ab3215d71d",
+            "title": "Niet beschikbaar"
+        },
+        "certificates": [],
+        "warranties": [],
+        "photos": [
+            {
+                "id": "6bda46d0-99f5-4c74-b29e-22696771ae3d",
+                "name": "ingenieuersbureau4.jpg",
+                "type": "image/jpeg",
+                "content": null
+            },
+            {
+                "id": "f5dc738f-d03c-4da9-83cc-270f3bfafc1f",
+                "name": "20210420_130228.jpg",
+                "type": "image/jpeg",
+                "content": null
+            },
+            {
+                "id": "9a92ae4b-f1c4-40a6-a32e-41899f4fe31f",
+                "name": "20210420_130247.jpg",
+                "type": "image/jpeg",
+                "content": null
+            },
+            {
+                "id": "f4fdeeeb-f1b5-4fc7-bb23-c00f56fd234d",
+                "name": "20210420_130253.jpg",
+                "type": "image/jpeg",
+                "content": null
+            },
+            {
+                "id": "4338ea9b-c6f7-466f-aa52-4ca66e474538",
+                "name": "20210420_130301.jpg",
+                "type": "image/jpeg",
+                "content": null
+            },
+            {
+                "id": "1145fe5e-78a3-444f-86c9-bb5b2fe12a18",
+                "name": "20210420_130305.jpg",
+                "type": "image/jpeg",
+                "content": null
+            },
+            {
+                "id": "3a735138-dc17-4fd4-b1b3-bc98e0f5cd1b",
+                "name": "20210420_130314.jpg",
+                "type": "image/jpeg",
+                "content": null
+            },
+            {
+                "id": "67dbd78c-fd33-4437-be51-99fd960d3d42",
+                "name": "20210420_130318.jpg",
+                "type": "image/jpeg",
+                "content": null
+            },
+            {
+                "id": "b250cc6a-c69a-4bcb-b2b6-d9693be743a2",
+                "name": "20210420_130322.jpg",
+                "type": "image/jpeg",
+                "content": null
+            },
+            {
+                "id": "a20ad5b7-29a6-4306-9ce1-99c0e8f6ed94",
+                "name": "20210420_130337.jpg",
+                "type": "image/jpeg",
+                "content": null
+            }
+        ],
+        "condition": {
+            "id": "0628dd12-9823-4fc0-9d3d-24eced5f7050",
+            "title": "Redelijke conditie (opvallende verouderingsprocessen)"
+        },
+        "currentLocationBuilding": "Opgeslagen op het terrein (overdekt)",
+        "disassembled": "Ja",
+        "transportProvider": "Nee",
+        "id": "9fba6145-29ea-411a-9d25-1bf1b57ac59a",
+        "partitionKey": "offer",
+        "documentType": "buildingmaterialrequest",
+        "deleted": false
+    },
+    {
+        "created": "2021-11-19T07:19:23.3155526+00:00",
+        "modified": "2021-11-22T06:00:09.0828798+00:00",
+        "user": {
+            "name": "Bart Breedijk",
+            "email": "bbreedijk@Heijmans.nl",
+            "organizationName": "Heijmans",
+            "isPremium": false,
+            "tenantId": "64b9032e-3a44-4d13-9230-6f329bca0958",
+            "isAdmin": false,
+            "canChangeEmail": false
+        },
+        "type": "Aanbod",
+        "className": "aanbod",
+        "status": "Uitvoering",
+        "internalProject": true,
+        "public": true,
+        "contractor": "Heijmans",
+        "projectName": "Rensa Grossier ",
+        "projectNumber": "",
+        "location": null,
+        "userIsContact": true,
+        "contact": "Bart Breedijk",
+        "email": "bbreedijk@Heijmans.nl",
+        "periodOf": "2021-11-19T00:00:00Z",
+        "periodTo": "2021-11-20T00:00:00Z",
+        "periodTender": "1970-01-01T00:00:00.001Z",
+        "proofAvailable": false,
+        "comments": "",
+        "geolocation": {
+            "latitude": 52.15516919598379,
+            "longitude": 5.3872060775756845
+        },
+        "address": {
+            "city": "Stadskern, Amersfoort",
+            "street": "Lieve Vrouwekerkhof",
+            "houseNumber": null,
+            "state": "Utrecht",
+            "zipcode": "3811BN",
+            "country": "Nederland",
+            "displayName": "Onze Lieve Vrouwetoren, Lieve Vrouwekerkhof, Stadskern, Amersfoort, Utrecht, Nederland, 3811B"
+        },
+        "sendEmail": false,
+        "attachments": null,
+        "expired": true,
+        "termsAndConditionsAccepted": true,
+        "productClassification": {
+            "id": "3bb71d6b-eb04-4777-8098-5b059ff0d155",
+            "code": "74",
+            "title": "Vaste Sanitaire Voorzieningen"
+        },
+        "subType": {
+            "id": "188a92af-95d7-4d82-9ede-b9a514542dff",
+            "code": "74.1",
+            "title": "Standaard"
+        },
+        "materials": [
+            {
+                "id": "fcef02d6-b3a5-4c34-ae93-017b59d8e09d",
+                "title": "Glas"
+            }
+        ],
+        "connection": {
+            "id": "ea630703-9e06-41fc-ae9d-adb834315138",
+            "title": "Droge verbinding"
+        },
+        "length": 600,
+        "lengthUnit": "Millimeter",
+        "width": 400,
+        "widthUnit": "Millimeter",
+        "height": 3,
+        "heightUnit": "Millimeter",
+        "area": null,
+        "areaUnit": null,
+        "weight": null,
+        "weightUnit": null,
+        "quantity": 0,
+        "accessibility": null,
+        "producer": {
+            "id": "94bc65b9-025d-40d0-b893-165ecc3e1c6b",
+            "title": "Onbekend"
+        },
+        "producerName": "",
+        "productName": "Sanitaire spiegel",
+        "productionYear": "Onbekend",
+        "productCode": "",
+        "lcaScore": {
+            "id": "be031c19-89fc-4c5b-b252-05ab3215d71d",
+            "title": "Niet beschikbaar"
+        },
+        "certificates": [],
+        "warranties": [],
+        "photos": [
+            {
+                "id": "f91fd8f3-e3d4-4266-9526-9b3979a1ce7c",
+                "name": "spiegel.png",
+                "type": "image/png",
+                "content": null
+            }
+        ],
+        "condition": {
+            "id": "e1ee569d-1ec0-4b20-beab-8ba3a0753691",
+            "title": "Uitstekende conditie (nieuwbouwkwaliteit)"
+        },
+        "currentLocationBuilding": "Reeds inopslag bij Rensa",
+        "disassembled": "Ja",
+        "transportProvider": "Ja",
+        "id": "1265efbc-50dd-4abd-bbac-47f89cc98640",
+        "partitionKey": "offer",
+        "documentType": "buildingmaterialrequest",
+        "deleted": false
+    },
+    {
+        "created": "2022-01-31T13:48:51.2622379+00:00",
+        "modified": "2022-01-31T13:58:22.8807974+00:00",
+        "user": {
+            "name": "Bart Breedijk",
+            "email": "bbreedijk@Heijmans.nl",
+            "organizationName": "Heijmans",
+            "isPremium": false,
+            "tenantId": "64b9032e-3a44-4d13-9230-6f329bca0958",
+            "isAdmin": false,
+            "canChangeEmail": false
+        },
+        "type": "Aanbod",
+        "className": "aanbod",
+        "status": "Uitvoering",
+        "internalProject": true,
+        "public": true,
+        "contractor": "Heijmans",
+        "projectName": "Rensa Grossier ",
+        "projectNumber": "",
+        "location": null,
+        "userIsContact": true,
+        "contact": "Bart Breedijk",
+        "email": "bbreedijk@Heijmans.nl",
+        "periodOf": "2022-01-31T00:00:00Z",
+        "periodTo": "2026-03-23T00:00:00Z",
+        "periodTender": "1970-01-01T00:00:00.001Z",
+        "proofAvailable": false,
+        "comments": "Wordt aangeboden door onze grossier Rensa",
+        "geolocation": {
+            "latitude": 51.94819976989545,
+            "longitude": 6.286035776138306
+        },
+        "address": {
+            "city": "Doetinchem",
+            "street": "Bedrijvenweg",
+            "houseNumber": "10",
+            "state": "Gelderland",
+            "zipcode": "7007CE",
+            "country": "Nederland",
+            "displayName": "10, Bedrijvenweg, Bedrijventerrein Wijnbergen, Doetinchem, Gelderland, Nederland, 7007CE"
+        },
+        "sendEmail": false,
+        "attachments": null,
+        "expired": false,
+        "termsAndConditionsAccepted": true,
+        "productClassification": {
+            "id": "3bb71d6b-eb04-4777-8098-5b059ff0d155",
+            "code": "74",
+            "title": "Vaste Sanitaire Voorzieningen"
+        },
+        "subType": {
+            "id": "188a92af-95d7-4d82-9ede-b9a514542dff",
+            "code": "74.1",
+            "title": "Standaard"
+        },
+        "materials": [
+            {
+                "id": "fcef02d6-b3a5-4c34-ae93-017b59d8e09d",
+                "title": "Glas"
+            }
+        ],
+        "connection": {
+            "id": "ea630703-9e06-41fc-ae9d-adb834315138",
+            "title": "Droge verbinding"
+        },
+        "length": 600,
+        "lengthUnit": "Millimeter",
+        "width": 400,
+        "widthUnit": "Millimeter",
+        "height": 5,
+        "heightUnit": "Millimeter",
+        "area": null,
+        "areaUnit": null,
+        "weight": 5,
+        "weightUnit": "Kg",
+        "quantity": 151,
+        "accessibility": {
+            "id": "35af39b7-705a-45a2-a13b-d1203fc16fb9",
+            "title": "Toegankelijk"
+        },
+        "producer": {
+            "id": "94bc65b9-025d-40d0-b893-165ecc3e1c6b",
+            "title": "Onbekend"
+        },
+        "producerName": "",
+        "productName": "Spiegel 60x40cm",
+        "productionYear": "2020",
+        "productCode": "Rensa code 0805344",
+        "lcaScore": {
+            "id": "be031c19-89fc-4c5b-b252-05ab3215d71d",
+            "title": "Niet beschikbaar"
+        },
+        "certificates": [],
+        "warranties": [],
+        "photos": [
+            {
+                "id": "35a8e38e-f1a2-4515-a321-c4d92be01e33",
+                "name": "spiegel.png",
+                "type": "image/png",
+                "content": null
+            }
+        ],
+        "condition": {
+            "id": "e1ee569d-1ec0-4b20-beab-8ba3a0753691",
+            "title": "Uitstekende conditie (nieuwbouwkwaliteit)"
+        },
+        "currentLocationBuilding": "Reeds inopslag bij Rensa",
+        "disassembled": "Nee",
+        "transportProvider": "Ja",
+        "id": "cbc445c0-24a1-496a-b87c-6eac824d4ec7",
+        "partitionKey": "offer",
+        "documentType": "buildingmaterialrequest",
+        "deleted": false
+    },
+    {
+        "created": "2022-02-10T21:19:40.8247582+00:00",
+        "modified": "2022-02-10T21:20:45.1561934+00:00",
+        "user": {
+            "name": "Thijs Huijsmans",
+            "email": "thuijsmans@heijmans.nl",
+            "organizationName": "Heijmans",
+            "isPremium": false,
+            "tenantId": "64b9032e-3a44-4d13-9230-6f329bca0958",
+            "isAdmin": false,
+            "canChangeEmail": false
+        },
+        "type": "Aanbod",
+        "className": "aanbod",
+        "status": "Uitvoering",
+        "internalProject": true,
+        "public": true,
+        "contractor": "Heijmans",
+        "projectName": "Rabobank Utrecht",
+        "projectNumber": "G.105857",
+        "location": null,
+        "userIsContact": true,
+        "contact": "Thijs Huijsmans",
+        "email": "thuijsmans@heijmans.nl",
+        "periodOf": "2022-04-01T00:00:00Z",
+        "periodTo": "2022-12-31T00:00:00Z",
+        "periodTender": "1970-01-01T00:00:00.001Z",
+        "proofAvailable": false,
+        "comments": "Glazen binnenwanden bij Rabobank Utrecht",
+        "geolocation": {
+            "latitude": 52.085927482691,
+            "longitude": 5.1088957790489085
+        },
+        "address": {
+            "city": "Utrecht",
+            "street": "Rabobank, Croeselaan",
+            "houseNumber": "18",
+            "state": "Utrecht",
+            "zipcode": "3521CB",
+            "country": "Nederland",
+            "displayName": "Rabobank, 18, Croeselaan, Dichterswijk, Utrecht, Nederland, 3521CB"
+        },
+        "sendEmail": false,
+        "attachments": null,
+        "expired": false,
+        "termsAndConditionsAccepted": true,
+        "productClassification": {
+            "id": "40afda4c-445d-4c51-918e-c2e9b3e19a71",
+            "code": "22",
+            "title": "Binnenwanden"
+        },
+        "subType": {
+            "id": "af1a18d9-709d-46a2-96bb-07b9e111a6d2",
+            "code": "22.14",
+            "title": "Niet Constructief, Systeemwanden; Verplaatsbaar"
+        },
+        "materials": [
+            {
+                "id": "fcef02d6-b3a5-4c34-ae93-017b59d8e09d",
+                "title": "Glas"
+            },
+            {
+                "id": "98b6445e-d575-432b-8e0a-03b8d7967e3e",
+                "title": "Metaal"
+            }
+        ],
+        "connection": {
+            "id": "5e2c8096-1f49-4b21-b423-d2893feb2d93",
+            "title": "Verbinding met toegevoegde elementen"
+        },
+        "length": 10,
+        "lengthUnit": "Meter",
+        "width": 10,
+        "widthUnit": "Millimeter",
+        "height": 3,
+        "heightUnit": "Meter",
+        "area": null,
+        "areaUnit": null,
+        "weight": null,
+        "weightUnit": null,
+        "quantity": 5,
+        "accessibility": {
+            "id": "f06ea042-a9e4-4cb5-9f30-fa692f0a8665",
+            "title": "Toegankelijk met extra handelingen die geen schade veroorzaken"
+        },
+        "producer": {
+            "id": "9250c822-5001-452b-8aaf-18395391adb7",
+            "title": "Bekend"
+        },
+        "producerName": "Maars",
+        "productName": "Maars stalen systeemwanden",
+        "productionYear": "2012",
+        "productCode": "",
+        "lcaScore": {
+            "id": "be031c19-89fc-4c5b-b252-05ab3215d71d",
+            "title": "Niet beschikbaar"
+        },
+        "certificates": [],
+        "warranties": [],
+        "photos": [
+            {
+                "id": "c903ad97-7619-4bdd-9f8b-8f76bc4790fd",
+                "name": "glazen wand Rabobank.png",
+                "type": "image/png",
+                "content": null
+            }
+        ],
+        "condition": {
+            "id": "7a41418f-dc97-401b-9196-2cdcf5292b41",
+            "title": "Goede conditie (beginnende verwering of slijtage)"
+        },
+        "currentLocationBuilding": "Verdieping 1",
+        "disassembled": "Nee",
+        "transportProvider": "Nee",
+        "id": "cc72bf31-6ba4-4070-b0a0-eb02291d9cab",
+        "partitionKey": "offer",
+        "documentType": "buildingmaterialrequest",
+        "deleted": false
+    },
+    {
+        "created": "2022-03-04T15:07:41.561137+00:00",
+        "modified": "2022-03-04T15:07:41.5611375+00:00",
+        "user": {
+            "name": "Bakir Selliah",
+            "email": "bselliah@heijmans.nl",
+            "organizationName": "Heijmans",
+            "isPremium": false,
+            "tenantId": "64b9032e-3a44-4d13-9230-6f329bca0958",
+            "isAdmin": false,
+            "canChangeEmail": false
+        },
+        "type": "Aanbod",
+        "className": "aanbod",
+        "status": "Productieproces",
+        "internalProject": true,
+        "public": true,
+        "contractor": "Heijmans",
+        "projectName": "",
+        "projectNumber": "",
+        "location": null,
+        "userIsContact": false,
+        "contact": "Francois de Graauw",
+        "email": "fgraauw@heijmans.nl",
+        "periodOf": "1970-01-01T00:00:00.001Z",
+        "periodTo": "2029-12-31T23:00:00Z",
+        "periodTender": "1970-01-01T00:00:00.001Z",
+        "proofAvailable": false,
+        "comments": "",
+        "geolocation": {
+            "latitude": 52.29241096152337,
+            "longitude": 4.735654592514039
+        },
+        "address": {
+            "city": "",
+            "street": "Freightway, Flamingoweg",
+            "houseNumber": null,
+            "state": "Noord-Holland",
+            "zipcode": "1118",
+            "country": "Nederland",
+            "displayName": "Freightway, Flamingoweg, Schiphol-Zuid, Haarlemmermeer, Noord-Holland, Nederland, 1118"
+        },
+        "sendEmail": false,
+        "attachments": null,
+        "expired": false,
+        "termsAndConditionsAccepted": true,
+        "productClassification": {
+            "id": "dbc5a375-c2f2-4e8a-a27d-6bfaf806fba7",
+            "code": "63",
+            "title": "Verlichting"
+        },
+        "subType": {
+            "id": "b6af3b4a-3079-4b99-9e95-283b3e2b22a3",
+            "code": "63.0",
+            "title": "Algemeen"
+        },
+        "materials": [
+            {
+                "id": "98b6445e-d575-432b-8e0a-03b8d7967e3e",
+                "title": "Metaal"
+            },
+            {
+                "id": "fcef02d6-b3a5-4c34-ae93-017b59d8e09d",
+                "title": "Glas"
+            },
+            {
+                "id": "a0daff86-f4bd-495d-b326-1e0f9f7c0e9f",
+                "title": "Bevestigingsmiddelen, voegvullingen"
+            }
+        ],
+        "connection": {
+            "id": "ea630703-9e06-41fc-ae9d-adb834315138",
+            "title": "Droge verbinding"
+        },
+        "length": 1600,
+        "lengthUnit": "Millimeter",
+        "width": null,
+        "widthUnit": null,
+        "height": null,
+        "heightUnit": null,
+        "area": null,
+        "areaUnit": null,
+        "weight": null,
+        "weightUnit": null,
+        "quantity": 35,
+        "accessibility": {
+            "id": "35af39b7-705a-45a2-a13b-d1203fc16fb9",
+            "title": "Toegankelijk"
+        },
+        "producer": {
+            "id": "9250c822-5001-452b-8aaf-18395391adb7",
+            "title": "Bekend"
+        },
+        "producerName": "Philips",
+        "productName": "WT 480C LED 35S/840 PSDCLO O TW1 1600Hf ",
+        "productionYear": "Onbekend",
+        "productCode": "",
+        "lcaScore": {
+            "id": "be031c19-89fc-4c5b-b252-05ab3215d71d",
+            "title": "Niet beschikbaar"
+        },
+        "certificates": [],
+        "warranties": [],
+        "photos": [
+            {
+                "id": "831e0e0b-d2ed-4e16-b117-33ac522c08ac",
+                "name": "WhatsApp Image 2022-03-03 at 2.32.37 PM (5).jpeg",
+                "type": "image/jpeg",
+                "content": null
+            }
+        ],
+        "condition": {
+            "id": "e1ee569d-1ec0-4b20-beab-8ba3a0753691",
+            "title": "Uitstekende conditie (nieuwbouwkwaliteit)"
+        },
+        "currentLocationBuilding": "(magazijn) Flamingoweg, Schiphol",
+        "disassembled": "Nee",
+        "transportProvider": "Nee",
+        "id": "bf4acfe6-113a-44ff-be5e-650a5fb9fb46",
+        "partitionKey": "offer",
+        "documentType": "buildingmaterialrequest",
+        "deleted": false
+    },
+    {
+        "created": "2022-03-04T15:12:25.4027042+00:00",
+        "modified": "2022-03-04T15:12:25.4027046+00:00",
+        "user": {
+            "name": "Bakir Selliah",
+            "email": "bselliah@heijmans.nl",
+            "organizationName": "Heijmans",
+            "isPremium": false,
+            "tenantId": "64b9032e-3a44-4d13-9230-6f329bca0958",
+            "isAdmin": false,
+            "canChangeEmail": false
+        },
+        "type": "Aanbod",
+        "className": "aanbod",
+        "status": "Productieproces",
+        "internalProject": true,
+        "public": true,
+        "contractor": "Heijmans",
+        "projectName": "",
+        "projectNumber": "",
+        "location": null,
+        "userIsContact": false,
+        "contact": "Francois de Graauw",
+        "email": "fgraauw@heijmans.nl",
+        "periodOf": "1970-01-01T00:00:00.001Z",
+        "periodTo": "2029-12-31T23:00:00Z",
+        "periodTender": "1970-01-01T00:00:00.001Z",
+        "proofAvailable": false,
+        "comments": "",
+        "geolocation": {
+            "latitude": 52.29241096152337,
+            "longitude": 4.735654592514039
+        },
+        "address": {
+            "city": "",
+            "street": "Freightway, Flamingoweg",
+            "houseNumber": null,
+            "state": "Noord-Holland",
+            "zipcode": "1118",
+            "country": "Nederland",
+            "displayName": "Freightway, Flamingoweg, Schiphol-Zuid, Haarlemmermeer, Noord-Holland, Nederland, 1118"
+        },
+        "sendEmail": false,
+        "attachments": null,
+        "expired": false,
+        "termsAndConditionsAccepted": true,
+        "productClassification": {
+            "id": "dbc5a375-c2f2-4e8a-a27d-6bfaf806fba7",
+            "code": "63",
+            "title": "Verlichting"
+        },
+        "subType": {
+            "id": "b6af3b4a-3079-4b99-9e95-283b3e2b22a3",
+            "code": "63.0",
+            "title": "Algemeen"
+        },
+        "materials": [
+            {
+                "id": "fcef02d6-b3a5-4c34-ae93-017b59d8e09d",
+                "title": "Glas"
+            },
+            {
+                "id": "a0daff86-f4bd-495d-b326-1e0f9f7c0e9f",
+                "title": "Bevestigingsmiddelen, voegvullingen"
+            },
+            {
+                "id": "98b6445e-d575-432b-8e0a-03b8d7967e3e",
+                "title": "Metaal"
+            }
+        ],
+        "connection": {
+            "id": "ea630703-9e06-41fc-ae9d-adb834315138",
+            "title": "Droge verbinding"
+        },
+        "length": 1600,
+        "lengthUnit": "Millimeter",
+        "width": null,
+        "widthUnit": null,
+        "height": null,
+        "heightUnit": null,
+        "area": null,
+        "areaUnit": null,
+        "weight": null,
+        "weightUnit": null,
+        "quantity": 120,
+        "accessibility": {
+            "id": "35af39b7-705a-45a2-a13b-d1203fc16fb9",
+            "title": "Toegankelijk"
+        },
+        "producer": {
+            "id": "9250c822-5001-452b-8aaf-18395391adb7",
+            "title": "Bekend"
+        },
+        "producerName": "Philips",
+        "productName": "WT480C LED35S/840 PSDCLO WB TW1 L1600HF",
+        "productionYear": "Onbekend",
+        "productCode": "WT480C LED35S/840 PSDCLO WB TW1 L1600HF",
+        "lcaScore": {
+            "id": "be031c19-89fc-4c5b-b252-05ab3215d71d",
+            "title": "Niet beschikbaar"
+        },
+        "certificates": [],
+        "warranties": [],
+        "photos": [
+            {
+                "id": "d8f65498-1e45-43ce-a3f2-3398409db9f5",
+                "name": "WhatsApp Image 2022-03-03 at 2.31.52 PM (6).jpeg",
+                "type": "image/jpeg",
+                "content": null
+            }
+        ],
+        "condition": {
+            "id": "e1ee569d-1ec0-4b20-beab-8ba3a0753691",
+            "title": "Uitstekende conditie (nieuwbouwkwaliteit)"
+        },
+        "currentLocationBuilding": "(magazijn) Flamingoweg, Schiphol",
+        "disassembled": "Nee",
+        "transportProvider": "Nee",
+        "id": "79e61ef0-97fa-4cc2-9d67-84c38a2e43ee",
+        "partitionKey": "offer",
+        "documentType": "buildingmaterialrequest",
+        "deleted": false
+    },
+    {
+        "created": "2022-03-04T15:16:20.4921908+00:00",
+        "modified": "2022-03-04T15:16:20.4921917+00:00",
+        "user": {
+            "name": "Bakir Selliah",
+            "email": "bselliah@heijmans.nl",
+            "organizationName": "Heijmans",
+            "isPremium": false,
+            "tenantId": "64b9032e-3a44-4d13-9230-6f329bca0958",
+            "isAdmin": false,
+            "canChangeEmail": false
+        },
+        "type": "Aanbod",
+        "className": "aanbod",
+        "status": "Productieproces",
+        "internalProject": true,
+        "public": true,
+        "contractor": "Heijmans",
+        "projectName": "",
+        "projectNumber": "",
+        "location": null,
+        "userIsContact": false,
+        "contact": "Francois de Graauw",
+        "email": "fgraauw@heijmans.nl",
+        "periodOf": "1970-01-01T00:00:00.001Z",
+        "periodTo": "2029-12-31T23:00:00Z",
+        "periodTender": "1970-01-01T00:00:00.001Z",
+        "proofAvailable": false,
+        "comments": "",
+        "geolocation": {
+            "latitude": 52.29241096152337,
+            "longitude": 4.735654592514039
+        },
+        "address": {
+            "city": "",
+            "street": "Freightway, Flamingoweg",
+            "houseNumber": null,
+            "state": "Noord-Holland",
+            "zipcode": "1118",
+            "country": "Nederland",
+            "displayName": "Freightway, Flamingoweg, Schiphol-Zuid, Haarlemmermeer, Noord-Holland, Nederland, 1118"
+        },
+        "sendEmail": false,
+        "attachments": null,
+        "expired": false,
+        "termsAndConditionsAccepted": true,
+        "productClassification": {
+            "id": "dbc5a375-c2f2-4e8a-a27d-6bfaf806fba7",
+            "code": "63",
+            "title": "Verlichting"
+        },
+        "subType": {
+            "id": "b6af3b4a-3079-4b99-9e95-283b3e2b22a3",
+            "code": "63.0",
+            "title": "Algemeen"
+        },
+        "materials": [
+            {
+                "id": "fcef02d6-b3a5-4c34-ae93-017b59d8e09d",
+                "title": "Glas"
+            },
+            {
+                "id": "a0daff86-f4bd-495d-b326-1e0f9f7c0e9f",
+                "title": "Bevestigingsmiddelen, voegvullingen"
+            },
+            {
+                "id": "98b6445e-d575-432b-8e0a-03b8d7967e3e",
+                "title": "Metaal"
+            }
+        ],
+        "connection": {
+            "id": "ea630703-9e06-41fc-ae9d-adb834315138",
+            "title": "Droge verbinding"
+        },
+        "length": 1600,
+        "lengthUnit": "Millimeter",
+        "width": null,
+        "widthUnit": null,
+        "height": null,
+        "heightUnit": null,
+        "area": null,
+        "areaUnit": null,
+        "weight": null,
+        "weightUnit": null,
+        "quantity": 13,
+        "accessibility": {
+            "id": "35af39b7-705a-45a2-a13b-d1203fc16fb9",
+            "title": "Toegankelijk"
+        },
+        "producer": {
+            "id": "9250c822-5001-452b-8aaf-18395391adb7",
+            "title": "Bekend"
+        },
+        "producerName": "Philips",
+        "productName": "BN124C LED 21S/840 PSU TW1 L600 ",
+        "productionYear": "Onbekend",
+        "productCode": "BN124C LED 21S/840 PSU TW1 L600 ",
+        "lcaScore": {
+            "id": "be031c19-89fc-4c5b-b252-05ab3215d71d",
+            "title": "Niet beschikbaar"
+        },
+        "certificates": [],
+        "warranties": [],
+        "photos": [
+            {
+                "id": "86419c38-5f6a-4353-80bf-635969148f8a",
+                "name": "WhatsApp Image 2022-03-03 at 2.32.37 PM.jpeg",
+                "type": "image/jpeg",
+                "content": null
+            }
+        ],
+        "condition": {
+            "id": "e1ee569d-1ec0-4b20-beab-8ba3a0753691",
+            "title": "Uitstekende conditie (nieuwbouwkwaliteit)"
+        },
+        "currentLocationBuilding": "(magazijn) Flamingoweg, Schiphol",
+        "disassembled": "Nee",
+        "transportProvider": "Nee",
+        "id": "21d20f05-77dc-4423-897a-6130df27178a",
+        "partitionKey": "offer",
+        "documentType": "buildingmaterialrequest",
+        "deleted": false
+    },
+    {
+        "created": "2022-04-12T09:59:19.0851793+00:00",
+        "modified": "2022-04-12T09:59:19.0851808+00:00",
+        "user": {
+            "name": "Sebastiaan Molenaar",
+            "email": "smolenaar@beelen.nl",
+            "organizationName": "Beelen NEXT",
+            "isPremium": false,
+            "tenantId": "930297a8-7ccd-4543-9b16-42a1dd66b4bd",
+            "isAdmin": false,
+            "canChangeEmail": false
+        },
+        "type": "Aanbod",
+        "className": "aanbod",
+        "status": "Uitvoering",
+        "internalProject": true,
+        "public": true,
+        "contractor": "Beelen NEXT",
+        "projectName": "Rabobank Croeselaan",
+        "projectNumber": "21.0285",
+        "location": null,
+        "userIsContact": true,
+        "contact": "Sebastiaan Molenaar",
+        "email": "smolenaar@beelen.nl",
+        "periodOf": "2022-05-02T00:00:00Z",
+        "periodTo": "2022-05-27T00:00:00Z",
+        "periodTender": "1970-01-01T00:00:00.001Z",
+        "proofAvailable": false,
+        "comments": "",
+        "geolocation": {
+            "latitude": 52.08591781237265,
+            "longitude": 5.109028816223145
+        },
+        "address": null,
+        "sendEmail": false,
+        "attachments": null,
+        "expired": false,
+        "termsAndConditionsAccepted": true,
+        "productClassification": {
+            "id": "40afda4c-445d-4c51-918e-c2e9b3e19a71",
+            "code": "22",
+            "title": "Binnenwanden"
+        },
+        "subType": {
+            "id": "5361b7b9-74a0-47b2-b6a2-c9636a018c37",
+            "code": "22.1",
+            "title": "Niet Constructief"
+        },
+        "materials": [
+            {
+                "id": "a5324d42-9b67-479c-8c50-1b69d252d578",
+                "title": "Hout"
+            },
+            {
+                "id": "fcef02d6-b3a5-4c34-ae93-017b59d8e09d",
+                "title": "Glas"
+            },
+            {
+                "id": "98b6445e-d575-432b-8e0a-03b8d7967e3e",
+                "title": "Metaal"
+            }
+        ],
+        "connection": {
+            "id": "ea630703-9e06-41fc-ae9d-adb834315138",
+            "title": "Droge verbinding"
+        },
+        "length": 28,
+        "lengthUnit": "Meter",
+        "width": 1,
+        "widthUnit": "Millimeter",
+        "height": 4600,
+        "heightUnit": "Millimeter",
+        "area": null,
+        "areaUnit": null,
+        "weight": null,
+        "weightUnit": null,
+        "quantity": 1,
+        "accessibility": {
+            "id": "35af39b7-705a-45a2-a13b-d1203fc16fb9",
+            "title": "Toegankelijk"
+        },
+        "producer": {
+            "id": "94bc65b9-025d-40d0-b893-165ecc3e1c6b",
+            "title": "Onbekend"
+        },
+        "producerName": "",
+        "productName": "Houten kozijnen ",
+        "productionYear": "Onbekend",
+        "productCode": "",
+        "lcaScore": {
+            "id": "be031c19-89fc-4c5b-b252-05ab3215d71d",
+            "title": "Niet beschikbaar"
+        },
+        "certificates": [],
+        "warranties": [],
+        "photos": [
+            {
+                "id": "1356069d-4c7e-42bf-8605-61c911aa0f3a",
+                "name": "IMG_4968.JPG",
+                "type": "image/jpeg",
+                "content": null
+            },
+            {
+                "id": "c302bf16-ba57-4b94-a7ed-611767b9f073",
+                "name": "IMG_4971.JPG",
+                "type": "image/jpeg",
+                "content": null
+            },
+            {
+                "id": "164fa205-1f5a-44bd-b18d-1e43ce5af365",
+                "name": "IMG_4973.JPG",
+                "type": "image/jpeg",
+                "content": null
+            },
+            {
+                "id": "9e8a9492-99e2-4e13-be79-b2ebe5b4a42a",
+                "name": "IMG_4974.JPG",
+                "type": "image/jpeg",
+                "content": null
+            }
+        ],
+        "condition": {
+            "id": "7a41418f-dc97-401b-9196-2cdcf5292b41",
+            "title": "Goede conditie (beginnende verwering of slijtage)"
+        },
+        "currentLocationBuilding": "",
+        "disassembled": "Nee",
+        "transportProvider": null,
+        "id": "7d56f206-9406-4e2c-8c02-72e2277b1f3f",
+        "partitionKey": "offer",
+        "documentType": "buildingmaterialrequest",
+        "deleted": false
+    },
+    {
+        "created": "2022-04-12T12:07:34.5388016+00:00",
+        "modified": "2022-04-12T12:07:34.5388032+00:00",
+        "user": {
+            "name": "Sebastiaan Molenaar",
+            "email": "smolenaar@beelen.nl",
+            "organizationName": "Beelen NEXT",
+            "isPremium": false,
+            "tenantId": "930297a8-7ccd-4543-9b16-42a1dd66b4bd",
+            "isAdmin": false,
+            "canChangeEmail": false
+        },
+        "type": "Aanbod",
+        "className": "aanbod",
+        "status": "Uitvoering",
+        "internalProject": true,
+        "public": true,
+        "contractor": "Beelen NEXT",
+        "projectName": "Rabobank Croeselaan",
+        "projectNumber": "21.0285",
+        "location": null,
+        "userIsContact": true,
+        "contact": "Sebastiaan Molenaar",
+        "email": "smolenaar@beelen.nl",
+        "periodOf": "2022-05-02T00:00:00Z",
+        "periodTo": "2022-05-27T00:00:00Z",
+        "periodTender": "1970-01-01T00:00:00.001Z",
+        "proofAvailable": false,
+        "comments": "",
+        "geolocation": {
+            "latitude": 52.08591781237265,
+            "longitude": 5.109028816223145
+        },
+        "address": null,
+        "sendEmail": false,
+        "attachments": null,
+        "expired": false,
+        "termsAndConditionsAccepted": true,
+        "productClassification": {
+            "id": "1b3517c2-58bd-4b26-9d62-94ec53ee2dd7",
+            "code": "21",
+            "title": "Buitenwanden"
+        },
+        "subType": {
+            "id": "73c04b57-6f05-47e7-bb40-17ce743ad605",
+            "code": "21.14",
+            "title": "Niet Constructief, Vlieswanden"
+        },
+        "materials": [
+            {
+                "id": "fcef02d6-b3a5-4c34-ae93-017b59d8e09d",
+                "title": "Glas"
+            },
+            {
+                "id": "98b6445e-d575-432b-8e0a-03b8d7967e3e",
+                "title": "Metaal"
+            }
+        ],
+        "connection": {
+            "id": "ea630703-9e06-41fc-ae9d-adb834315138",
+            "title": "Droge verbinding"
+        },
+        "length": 19500,
+        "lengthUnit": "Millimeter",
+        "width": 1,
+        "widthUnit": "Millimeter",
+        "height": 4500,
+        "heightUnit": "Millimeter",
+        "area": null,
+        "areaUnit": null,
+        "weight": null,
+        "weightUnit": null,
+        "quantity": 1,
+        "accessibility": {
+            "id": "f06ea042-a9e4-4cb5-9f30-fa692f0a8665",
+            "title": "Toegankelijk met extra handelingen die geen schade veroorzaken"
+        },
+        "producer": {
+            "id": "94bc65b9-025d-40d0-b893-165ecc3e1c6b",
+            "title": "Onbekend"
+        },
+        "producerName": "",
+        "productName": "Buitenkozijn / pui / vliesgevel ",
+        "productionYear": "Onbekend",
+        "productCode": "",
+        "lcaScore": {
+            "id": "be031c19-89fc-4c5b-b252-05ab3215d71d",
+            "title": "Niet beschikbaar"
+        },
+        "certificates": [],
+        "warranties": [],
+        "photos": [
+            {
+                "id": "4604a855-eb78-4722-9387-41149bfaabfd",
+                "name": "IMG_4993.JPG",
+                "type": "image/jpeg",
+                "content": null
+            },
+            {
+                "id": "395ffeb1-895a-46ad-b404-b5e2250d31b7",
+                "name": "IMG_4997.JPG",
+                "type": "image/jpeg",
+                "content": null
+            },
+            {
+                "id": "34a3482d-ed9c-44a3-bb4f-a020c2e9c256",
+                "name": "IMG_5013.JPG",
+                "type": "image/jpeg",
+                "content": null
+            },
+            {
+                "id": "0c5a2ddc-9d54-4674-af71-9f966803f515",
+                "name": "IMG_5014.JPG",
+                "type": "image/jpeg",
+                "content": null
+            }
+        ],
+        "condition": {
+            "id": "7a41418f-dc97-401b-9196-2cdcf5292b41",
+            "title": "Goede conditie (beginnende verwering of slijtage)"
+        },
+        "currentLocationBuilding": "",
+        "disassembled": "Nee",
+        "transportProvider": null,
+        "id": "cd548554-3ad6-4a02-8ef0-973958e4bfa6",
+        "partitionKey": "offer",
+        "documentType": "buildingmaterialrequest",
+        "deleted": false
+    },
+    {
+        "created": "2022-04-12T12:09:28.6726258+00:00",
+        "modified": "2022-04-12T12:09:28.6726272+00:00",
+        "user": {
+            "name": "Sebastiaan Molenaar",
+            "email": "smolenaar@beelen.nl",
+            "organizationName": "Beelen NEXT",
+            "isPremium": false,
+            "tenantId": "930297a8-7ccd-4543-9b16-42a1dd66b4bd",
+            "isAdmin": false,
+            "canChangeEmail": false
+        },
+        "type": "Aanbod",
+        "className": "aanbod",
+        "status": "Uitvoering",
+        "internalProject": true,
+        "public": true,
+        "contractor": "Beelen NEXT",
+        "projectName": "Rabobank Croeselaan",
+        "projectNumber": "21.0285",
+        "location": null,
+        "userIsContact": true,
+        "contact": "Sebastiaan Molenaar",
+        "email": "smolenaar@beelen.nl",
+        "periodOf": "2022-05-02T00:00:00Z",
+        "periodTo": "2022-05-27T00:00:00Z",
+        "periodTender": "1970-01-01T00:00:00.001Z",
+        "proofAvailable": false,
+        "comments": "",
+        "geolocation": {
+            "latitude": 52.08591781237265,
+            "longitude": 5.109028816223145
+        },
+        "address": null,
+        "sendEmail": false,
+        "attachments": null,
+        "expired": false,
+        "termsAndConditionsAccepted": true,
+        "productClassification": {
+            "id": "1b3517c2-58bd-4b26-9d62-94ec53ee2dd7",
+            "code": "21",
+            "title": "Buitenwanden"
+        },
+        "subType": {
+            "id": "73c04b57-6f05-47e7-bb40-17ce743ad605",
+            "code": "21.14",
+            "title": "Niet Constructief, Vlieswanden"
+        },
+        "materials": [
+            {
+                "id": "fcef02d6-b3a5-4c34-ae93-017b59d8e09d",
+                "title": "Glas"
+            },
+            {
+                "id": "98b6445e-d575-432b-8e0a-03b8d7967e3e",
+                "title": "Metaal"
+            }
+        ],
+        "connection": {
+            "id": "ea630703-9e06-41fc-ae9d-adb834315138",
+            "title": "Droge verbinding"
+        },
+        "length": 11500,
+        "lengthUnit": "Millimeter",
+        "width": 1,
+        "widthUnit": "Millimeter",
+        "height": 4500,
+        "heightUnit": "Millimeter",
+        "area": null,
+        "areaUnit": null,
+        "weight": null,
+        "weightUnit": null,
+        "quantity": 1,
+        "accessibility": {
+            "id": "f06ea042-a9e4-4cb5-9f30-fa692f0a8665",
+            "title": "Toegankelijk met extra handelingen die geen schade veroorzaken"
+        },
+        "producer": {
+            "id": "94bc65b9-025d-40d0-b893-165ecc3e1c6b",
+            "title": "Onbekend"
+        },
+        "producerName": "",
+        "productName": "Buitenkozijn / pui / vliesgevel ",
+        "productionYear": "Onbekend",
+        "productCode": "",
+        "lcaScore": {
+            "id": "be031c19-89fc-4c5b-b252-05ab3215d71d",
+            "title": "Niet beschikbaar"
+        },
+        "certificates": [],
+        "warranties": [],
+        "photos": [
+            {
+                "id": "5e8a91e2-b471-4939-95e1-765f527280af",
+                "name": "IMG_4995.JPG",
+                "type": "image/jpeg",
+                "content": null
+            },
+            {
+                "id": "02da3875-5a2f-4d26-9595-d0392bbba43e",
+                "name": "IMG_4996.JPG",
+                "type": "image/jpeg",
+                "content": null
+            }
+        ],
+        "condition": {
+            "id": "7a41418f-dc97-401b-9196-2cdcf5292b41",
+            "title": "Goede conditie (beginnende verwering of slijtage)"
+        },
+        "currentLocationBuilding": "",
+        "disassembled": "Nee",
+        "transportProvider": null,
+        "id": "300aa55e-5a91-4a3b-b608-1da24ec8669e",
+        "partitionKey": "offer",
+        "documentType": "buildingmaterialrequest",
+        "deleted": false
+    },
+    {
+        "created": "2022-05-12T11:13:27.497206+00:00",
+        "modified": "2022-05-13T06:00:07.485263+00:00",
+        "user": {
+            "name": "Wessel Buur",
+            "email": "wessel.buur@schiphol.nl",
+            "organizationName": "Schiphol",
+            "isPremium": false,
+            "tenantId": "930297a8-7ccd-4543-9b16-42a1dd66b4bd",
+            "isAdmin": false,
+            "canChangeEmail": false
+        },
+        "type": "Aanbod",
+        "className": "aanbod",
+        "status": "Uitvoering",
+        "internalProject": true,
+        "public": true,
+        "contractor": "Schiphol",
+        "projectName": "TB.200002.082.P G/H Tent",
+        "projectNumber": "BAM-P5B-000112",
+        "location": null,
+        "userIsContact": true,
+        "contact": "Wessel Buur",
+        "email": "wessel.buur@schiphol.nl",
+        "periodOf": "2020-12-01T00:00:00Z",
+        "periodTo": "2020-12-02T00:00:00Z",
+        "periodTender": "1970-01-01T00:00:00.001Z",
+        "proofAvailable": false,
+        "comments": "",
+        "geolocation": {
+            "latitude": 52.26764524698008,
+            "longitude": 4.732468128204347
+        },
+        "address": {
+            "city": "Rijsenhout",
+            "street": "Aarbergerweg",
+            "houseNumber": "7",
+            "state": "Noord-Holland",
+            "zipcode": "1435CA",
+            "country": "Nederland",
+            "displayName": "7, Aarbergerweg, Rijsenhout, Haarlemmermeer, Noord-Holland, Nederland, 1435CA"
+        },
+        "sendEmail": false,
+        "attachments": null,
+        "expired": true,
+        "termsAndConditionsAccepted": true,
+        "productClassification": {
+            "id": "d9fe248b-4028-4481-88b1-9f6b4d6f0ed1",
+            "code": "31",
+            "title": "Buitenwandopeningen"
+        },
+        "subType": {
+            "id": "f4f7c8ce-56ec-4905-8aba-2e7c63ee5d8b",
+            "code": "31.33",
+            "title": "Gevuld met Deuren, Tuimeldeuren"
+        },
+        "materials": [
+            {
+                "id": "fcef02d6-b3a5-4c34-ae93-017b59d8e09d",
+                "title": "Glas"
+            }
+        ],
+        "connection": {
+            "id": "ea630703-9e06-41fc-ae9d-adb834315138",
+            "title": "Droge verbinding"
+        },
+        "length": 2050,
+        "lengthUnit": "Millimeter",
+        "width": 2400,
+        "widthUnit": "Millimeter",
+        "height": 1,
+        "heightUnit": "Millimeter",
+        "area": null,
+        "areaUnit": null,
+        "weight": null,
+        "weightUnit": null,
+        "quantity": 0,
+        "accessibility": {
+            "id": "35af39b7-705a-45a2-a13b-d1203fc16fb9",
+            "title": "Toegankelijk"
+        },
+        "producer": {
+            "id": "94bc65b9-025d-40d0-b893-165ecc3e1c6b",
+            "title": "Onbekend"
+        },
+        "producerName": "",
+        "productName": "Nooddeuren",
+        "productionYear": "Onbekend",
+        "productCode": "BAM-P5B-000112",
+        "lcaScore": {
+            "id": "be031c19-89fc-4c5b-b252-05ab3215d71d",
+            "title": "Niet beschikbaar"
+        },
+        "certificates": [],
+        "warranties": [],
+        "photos": [
+            {
+                "id": "4ed14370-6374-49b5-ae44-432d98d77891",
+                "name": "4AE0DF4D-BD5D-4A43-B4AD-C16CD0CD5E78.jpg",
+                "type": "image/jpeg",
+                "content": null
+            },
+            {
+                "id": "7db7fedb-b4de-41b1-9b81-ab652ece2ec2",
+                "name": "Dubbele nooddeur met pushbars_ 3 stuks.jpg",
+                "type": "image/jpeg",
+                "content": null
+            }
+        ],
+        "condition": {
+            "id": "0628dd12-9823-4fc0-9d3d-24eced5f7050",
+            "title": "Redelijke conditie (opvallende verouderingsprocessen)"
+        },
+        "currentLocationBuilding": "",
+        "disassembled": "Nee",
+        "transportProvider": "Nee",
+        "id": "28928b57-94f8-47a5-b452-cba39fe10294",
+        "partitionKey": "offer",
+        "documentType": "buildingmaterialrequest",
+        "deleted": false
+    }
+]

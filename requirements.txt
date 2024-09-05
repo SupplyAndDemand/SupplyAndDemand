@@ -1,0 +1,11 @@
+certifi==2024.8.30
+cffi==1.17.1
+charset-normalizer==3.3.2
+cryptography==43.0.1
+idna==3.8
+msal==1.30.0
+pycparser==2.22
+PyJWT==2.9.0
+python-dotenv==1.0.1
+requests==2.32.3
+urllib3==2.2.2

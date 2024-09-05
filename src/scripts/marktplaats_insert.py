@@ -76,7 +76,7 @@ category_mapping = {"Afbouwtimmerwerk": 104,
 
 # GraphQL Category Query on Category ID
 payload = '{{"query":"query category($id: ID, $sector: [String], $category: [ID], $status: [String]){{\\n    category(id: $id sector: $sector category: $category status: $status  ) {{\\n        id\\n        name\\n        producten {{\\n            id\\n            title\\n            url\\n            omschrijving\\n            lengtehoogte\\n            eenheid_lengtehoogte\\n            breedte\\n            eenheid_breedte\\n            hoogtedikte\\n            eenheid_hoogtedikte\\n            hoeveelheid\\n            eenheid_hoeveel\\n            op_aanvraag\\n            adres\\n            postcode\\n            plaats\\n            locatie_gebouw\\n            latitude\\n            longitude\\n        }}\\n    }}\\n}}\\n","variables":{{"id":{category_code}}}}}'
-headers = {"Content-Type": "application/json"}
+headers = {"Content-Type": "application/json", "sofie-required-version": "10.4.10"}
 
 def get_single_category(category):
     category_code = category_mapping[category]

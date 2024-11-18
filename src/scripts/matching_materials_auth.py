@@ -1,21 +1,12 @@
 import requests
 import json
-import msal
+from msal import PublicClientApplication
 import os
 from dotenv import load_dotenv
 
 __author__ = "Maryanne Wachter"
 __contact__ = "mwachter@utsv.net"
 __version__ = "0.0.2"
-
-load_dotenv()
-
-# Microsoft Azure configuration
-CLIENT_ID = os.getenv("AZURE_CLIENT_ID")
-CLIENT_SECRET = os.getenv("AZURE_CLIENT_SECRET")
-TENANT_ID = os.getenv("AZURE_TENANT_ID")
-AUTHORITY = f"https://login.microsoftonline.com/{TENANT_ID}"
-SCOPE = ["https://graph.microsoft.com/.default"]
 
 API_URL = "https://tradingrawmaterial.azurewebsites.net/api/buildingmaterialrequest/getByFilter"
 
@@ -30,19 +21,77 @@ material_categories = {
 }
 
 
-def get_access_token():
-    app = msal.ConfidentialClientApplication(
-        CLIENT_ID, authority=AUTHORITY, client_credential=CLIENT_SECRET
-    )
-    result = app.acquire_token_silent(SCOPE, account=None)
-    if not result:
-        result = app.acquire_token_for_client(scopes=SCOPE)
-    if "access_token" in result:
-        return result["access_token"]
-    else:
-        print(f"Error: {result.get('error')}")
-        print(f"Error description: {result.get('error_description')}")
-        return None
+class MatchingMaterialsAuth:
+    def __init__(self):
+
+        load_dotenv()
+
+        self.client_id = os.getenv("MM_CLIENT_ID")
+        self.base_url = "https://matchingmaterials.com/api"
+        self.redirect_uri = "https://matchingmaterials.com/signout"
+
+        self.app = PublicClientApplication(
+            client_id=self.client_id,
+            authority="https://login.microsoftonline.com/common",
+        )
+
+        self.scopes = ["https://graph.microsoft.com/User.Read"]
+
+        self.cache_file = ".token_cache.json"
+        self._load_cache()
+
+    def _load_cache(self):
+        """Load token cache from file if it exists"""
+        if os.path.exists(self.cache_file):
+            with open(self.cache_file, "r") as f:
+                cache_data = json.load(f)
+                self.app.token_cache.deserialize(json.dumps(cache_data))
+
+    def _save_cache(self):
+        """Save token cache to file"""
+        if self.app.token_cache.has_state():
+            cache_data = json.loads(self.app.token_cache.serialize())
+            with open(self.cache_file, "w") as f:
+                json.dump(cache_data, f)
+
+    def get_auth_token(self):
+        accounts = self.app.get_accounts()
+
+        if accounts:
+            try:
+                result = self.app.acquire_token_silent(
+                    scopes=scopes, account=accounts[0]
+                )
+                if result:
+                    return result["access_token"]
+            except Exception as e:
+                print(f"Silent token acquisition failed: {e}")
+
+        try:
+            # Start device flow
+            flow = self.app.initiate_device_flow(scopes=self.scopes)
+
+            if "user_code" not in flow:
+                raise Exception("Failed to create device flow")
+
+            print(
+                "\nTo sign in, use a web browser to open the page {} and enter the code {} to authenticate.".format(
+                    flow["verification_uri"], flow["user_code"]
+                )
+            )
+
+            # Complete authentication flow
+            result = self.app.acquire_token_by_device_flow(flow)
+
+            if "access_token" in result:
+                self._save_cache()
+                return result["access_token"]
+            else:
+                error = result.get("error_description", result.get("error"))
+                raise Exception(f"Failed to get token: {error}")
+
+        except Exception as e:
+            raise Exception(f"Authentication failed: {e}")
 
 
 def make_api_request(access_token, material_id=None):
@@ -79,12 +128,17 @@ def response_to_json(response):
 
 
 def main():
-    access_token = get_access_token()
-    if not access_token:
+    try:
+        auth = MatchingMaterialsAuth()
+        token = auth.get_auth_token()
+        print("Successfully acquired token")
+    except Exception as e:
+        print(f"Error: {e}")
+    if not token:
         print("Failed to obtain access token.")
         return
 
-    response = make_api_request(access_token)  # sub in material category if desired
+    response = make_api_request(token)  # sub in material category if desired
 
     if response.status_code == 200:
         response_to_json(response)

@@ -39,7 +39,7 @@ def fetch_all_active_items(token):
     base_url = "https://api.duspot.nl/api/products"
 
     headers = {
-        "Authorization": "Bearer {token}".format(token=token),
+        "Authorization": f"Bearer {token}",
         "Content-Type": "application/json",
     }
 
@@ -77,6 +77,24 @@ def fetch_all_active_items(token):
             print(e)
 
 
+def fetch_item_by_id(token, id):
+    base_url = f"https://api.duspot.nl/api/product/{id}"
+
+    headers = {
+        "Authorization": f"Bearer {token}",
+        "Content-Type": "application/json",
+    }
+
+    try:
+        response = requests.request("GET", base_url, headers=headers)
+        with open(f"{id}_data.json", "w") as fh:
+            json.dump(response.json(), fh, indent=2)
+    except requests.exceptions.RequestException as e:
+        print("Request failed:", e)
+
+
 if __name__ == "__main__":
     token = "YOURTOKENHERE"
     fetch_all_active_items(token)
+    id = "110060"
+    fetch_item_by_id(token, id)

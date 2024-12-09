@@ -44,31 +44,33 @@ material_categories = {
     "Bevestigingsmiddelen, voegvullingen": "a0daff86-f4bd-495d-b326-1e0f9f7c0e9f",
 }
 
-payload = json.dumps({
-  "offers": True,
-  "questions": True,
-  "tender": True,
-  "execution": True,
-  "production": True,
-  "private": True,
-  "onlyPublic": False,
-  "ownOrganization": False,
-  "organizationId": "",
-  "organizationName": "",
-  "productClassificationId": "",
-  "subTypeId": "",
-  "materialId": ""
-})
+payload = json.dumps(
+    {
+        "offers": True,
+        "questions": True,
+        "tender": True,
+        "execution": True,
+        "production": True,
+        "private": True,
+        "onlyPublic": False,
+        "ownOrganization": False,
+        "organizationId": "",
+        "organizationName": "",
+        "productClassificationId": "",
+        "subTypeId": "",
+        "materialId": "",
+    }
+)
 
-token="YOURACTIVETOKENHERE"
+token = "YOURACTIVETOKENHERE"
 headers = {
-    'Authorization': 'Bearer {token}'.format(token=token),
-  'Content-Type': 'application/json',
+    "Authorization": "Bearer {token}".format(token=token),
+    "Content-Type": "application/json",
 }
 
 
-
 response = requests.request("POST", url, headers=headers, data=payload)
+
 
 # Currently fetches all materials
 # To fetch specific material, sub in relevant material category hash into payload.materialId
@@ -76,5 +78,6 @@ def response_to_json(response):
     with open("matching_materials.json", "w") as fh:
         response = response.json()
         json.dump(response, fh, indent=4)
+
 
 response_to_json(response)

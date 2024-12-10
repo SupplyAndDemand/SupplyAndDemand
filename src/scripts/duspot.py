@@ -4,11 +4,15 @@ import requests
 import json
 from math import ceil
 from datetime import date
+from dotenv import load_dotenv
+import os
+
 
 __author__ = "Maryanne Wachter"
 __contact__ = "mwachter@utsv.net"
 __version__ = "0.0.1"
 
+load_dotenv()
 # --------------------------------------------------------------------------------------
 # Request Script for querying Duspot Database - Active Listings
 # https://portal.duspot.nl/
@@ -35,7 +39,7 @@ __version__ = "0.0.1"
 # --------------------------------------------------------------------------------------
 
 
-def fetch_all_active_items(token):
+def fetch_active_items(token, keyword=None):
     base_url = "https://api.duspot.nl/api/products"
 
     headers = {
@@ -45,6 +49,9 @@ def fetch_all_active_items(token):
 
     active_page = 1
     params = {"published": "true", "spot.active": "true", "page": active_page}
+
+    if keyword is not None:
+        params["search"] = keyword
 
     first_response = None
     # Get the first page
@@ -71,7 +78,12 @@ def fetch_all_active_items(token):
                 )
                 page_data = next_response.json()
                 all_records.extend(page_data["hydra:member"])
-            with open(f"{formatted_date}_duspot_data.json", "w") as fh:
+            filename = (
+                f"{formatted_date}_duspot_data_{keyword}.json"
+                if keyword
+                else f"{formatted_date}_duspot_data.json"
+            )
+            with open(filename, "w") as fh:
                 json.dump(all_records, fh, indent=2)
         except Exception as e:
             print(e)
@@ -93,8 +105,26 @@ def fetch_item_by_id(token, id):
         print("Request failed:", e)
 
 
+def get_JWT():
+    username = os.getenv("DUSPOT_USERNAME")
+    password = os.getenv("DUSPOT_PASSWORD")
+
+    payload = {"email": username, "password": password}
+
+    url = "https://api.duspot.nl/api/login"
+    try:
+        response = requests.post(url, headers={}, json=payload)
+        json_response = response.json()
+        if json_response["token"]:
+            return json_response["token"]
+    except requests.exceptions.RequestException as e:
+        print("Login failed: ", e)
+
+    return None
+
+
 if __name__ == "__main__":
-    token = "YOURTOKENHERE"
-    fetch_all_active_items(token)
-    id = "110060"
+    token = get_JWT()
+    fetch_active_items(token)
+    fetch_active_items(token, "staal")
     fetch_item_by_id(token, id)
